@@ -12,7 +12,7 @@ fn main() {
    // println!("random num: {} ", random_num);
 
    println!("\n********************************************************************");
-   println!("Trouve le code secret du coffre, tu n'as que 10 tentatives possibles");
+   println!("Trouve le code secret du coffre, tu n'as que {} tentatives possibles", health);
    println!("********************************************************************\n");
    
     while (num < 0 || num > 500000) || num != random_num{
